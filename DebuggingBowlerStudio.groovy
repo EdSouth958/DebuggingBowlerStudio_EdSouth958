@@ -11,5 +11,4 @@ println "\n\n"+methods.findAll{	it.toLowerCase().contains("get")&&
 }
 
 // Debug exceptions with auto-highlighting of exceptions
-
 throw new RuntimeException("Read the stack trace to find the line numbers of places to look for problems")
